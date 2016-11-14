@@ -1,0 +1,42 @@
+{
+  "name": "get-tumblr-posts",
+  "version": "0.1.0",
+  "description": "Returns an array of links with posts matching supplied pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/_mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gipphe/get-tumblr-posts.git"
+  },
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "keywords": [
+    "tumblr",
+    "image",
+    "size"
+  ],
+  "author": {
+    "name": "Victor Nascimento Bakke",
+    "email": "gipphe@gmail.com",
+    "url": "giphtbase.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gipphe/get-tumblr-posts/issues"
+  },
+  "homepage": "https://github.com/Gipphe/get-tumblr-posts#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "is-array": "^1.0.1",
+    "is-regex": "^1.0.3"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "mocha": "^2.5.3",
+    "mockery": "^1.7.0",
+    "request-promise": "^4.1.1"
+  }
+}
